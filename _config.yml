@@ -9,7 +9,7 @@ last_name: Lin
 contact_note: >
   Email is the best way to reach me.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  M.Eng student in Mechanical and Industrial Engineering at the University of Toronto, working on robotics perception, state estimation, and UAV autonomy.
+  M.Eng student in Mechanical and Industrial Engineering at the University of Toronto, working on robotics perception, state estimation, and unmanned systems autonomy.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.

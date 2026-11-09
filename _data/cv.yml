@@ -1,189 +1,181 @@
 cv:
-  name: Albert Einstein
-  label: Scientist
-  email: einstein@example.com
-  location: Princeton, NJ
+  name: Austin (Yang-Chen) Lin
+  label: M.Eng Student, Robotics Perception & State Estimation
+  email: yangchen.lin0524@gmail.com
+  location: Toronto, ON
   image: ""
-  summary: A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time
+  summary: M.Eng student in Mechanical and Industrial Engineering at the University of Toronto, working on robotics perception, state estimation, sensor fusion, and UAV autonomy.
 
   social_networks:
-    - network: X
-      username: AlbertEinstein
     - network: GitHub
-      username: example
+      username: iolj-uoft
     - network: LinkedIn
-      username: example
-
-  address:
-    street: 2712 Broadway St
-    city: San Francisco
-    region: California
-    postalCode: CA 94115
-    countryCode: US
+      username: yang-chen-lin
 
   sections:
     Education:
-      - institution: University of Zurich
-        location: Zurich, Switzerland
-        url: https://www.uzh.ch/
-        area: Physics
-        studyType: PhD
-        start_date: 1900
-        end_date: 1905
-        score: ""
-        courses: "Theory of Relativity"
-        highlights:
-          - Description 1.
-          - Description 2.
+      - institution: University of Toronto
+        location: Toronto, ON
+        url: https://www.utoronto.ca/
+        area: Mechanical and Industrial Engineering
+        studyType: M.Eng
+        start_date: 2024-09
+        end_date: 2026-06
+        score: "GPA: 3.91 / 4.0"
+        courses: "Perception for Robotics (A+), AI Applications in Robotics II (A+), Development of Autonomous UAS (A), Introduction to Deep Learning (A)"
 
-      - institution: Eidgenössische Technische Hochschule
-        location: Zurich, Switzerland
-        area: Physics
-        studyType: Federal teaching diploma
-        start_date: 1896
-        end_date: 1900
-        highlights:
-          - Description 1.
-          - Description 2.
+      - institution: National Chung-Cheng University (CCU)
+        location: Chiayi, Taiwan
+        area: Mechanical Engineering
+        studyType: B.Sc
+        start_date: 2019-09
+        end_date: 2023-06
 
     Experience:
-      - company: Institute for Advanced Study, Princeton University
-        position: Professor of Theoretical Physics
-        location: Princeton University, NJ
-        start_date: 1933
-        end_date: 1955
-        summary: Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.
+      - company: aUToronto, University of Toronto Self-Driving Car Design Team
+        position: Perception Software Developer, Tracking
+        location: Toronto, ON
+        start_date: 2024-09
+        end_date: 2025-11
         highlights:
-          - Relativity
-          - Description 2.
+          - "Designed and implemented yaw-rate estimation in a C++/ROS 2 multi-sensor (lidar, camera) object tracker for the team's self-driving car, extending the Kalman filter state and its message interfaces"
+          - "Built curve-based trajectory projection so the tracker could forecast turning obstacles for motion planning, extending message interfaces used by the prediction and planning subteams; tested via rosbag replay"
 
-      - company: California Institute of Technology
-        position: Visiting Professor
-        location: Pasadena, California, US
-        start_date: 1933
-        end_date: 1933
+      - company: Learning Space Management, University of Toronto
+        position: Tech2U Classroom Ambassador
+        location: Toronto, ON
+        start_date: 2024-09
+        end_date: 2025-08
         highlights:
-          - Description 1.
-          - Description 2.
+          - "Resolved audio-visual equipment faults on site as first point of contact for 600+ instructors across 290+ instructional spaces, triaging remotely dispatched service calls under live-class pressure; earned a Certificate of Special Recognition"
+          - "Explained technical steps to non-technical faculty during live classes, performed preventive maintenance on classroom equipment, and worked with senior staff to standardize support procedures across campus"
 
-      - company: Kaiser Wilhelm Institute for Physics
-        position: Director
-        location: Berlin, Germany
-        start_date: 1917
-        end_date: 1933
-
-      - company: Karl-Ferdinand University
-        position: Professor of Theoretical Physics
-        location: Prague, Czechoslovakia
-        start_date: 1911
-        end_date: 1917
-
-      - company: University of Zurich
-        position: Associate Professor of Theoretical Physics
-        location: Zurich, Switzerland
-        start_date: 1909
-        end_date: 1911
-
-    Volunteer:
-      - company: People's Climate March
-        position: Lead Organizer
-        location: Zurich, Switzerland
-        start_date: 2014-04-01
-        end_date: 2015-07-01
-        summary: Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.
+      - company: Fuel Cell Lab, National Chung-Cheng University
+        position: Research Assistant
+        location: Taiwan
+        start_date: 2022-09
+        end_date: 2024-05
         highlights:
-          - "Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march."
-          - "Men of the year 2014 by Time magazine"
+          - "Designed parametric experiments on a 25 cm² anion exchange membrane water electrolyzer, varying diffusion layers, catalyst loadings, and temperature to reach 600 mA/cm² at 1.8 V (~82% HHV voltage efficiency)"
+          - "Engineered a hybrid hydrophilic/hydrophobic cathode gas diffusion layer by heat-treating carbon paper and spray-coating a carbon nanotube/PTFE layer, raising electrolyzer current density by 68.4% at 2 V"
+          - "Developed a Python instrument-control and data-logging program that automated measurement runs on the lab's electrolyzer test station, replacing commercial software and saving over USD $1,000"
+          - "First-authored an [SSRN preprint](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5082120) (2025) on a NiFe-LDH anode for AEM water electrolysis, integrating a catalyst supplied by collaborators at National Chung Hsing University into cell-level testing"
 
-    Awards:
-      - title: Nobel Prize in Physics
-        authors:
-          - "Royal Swedish Academy of Sciences"
-        date: 1921-11-01
-        awarder: Royal Swedish Academy of Sciences
-        url: https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/
-        summary: The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'
-
-      - title: Max Planck Medal
-        authors:
-          - "German Physical Society"
-        date: 2029
-        awarder: German Physical Society
-        summary: Awarded for outstanding scientific achievement
-
-    Publications:
-      - title: Zur Elektrodynamik bewegter Körper
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-06-30
-        url: https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies
-        summary: It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source.
-
-      - title: Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-03-18
-        url: https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt
-        summary: In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921.
-
-      - title: Die Grundlage der allgemeinen Relativitätstheorie
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1916-03-20
-        url: https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie
-        summary: The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914).
-
-    Skills:
-      - name: Physics
-        level: Master
-        icon: fa-solid fa-hashtag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
-
-    Languages:
-      - name: German
-        summary: "Native speaker"
-
-      - name: English
-        summary: "Fluent"
-
-    Interests:
-      - name: Physics
-        icon: fa-solid fa-tag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
-
-    Certificates:
-      - name: Machine Learning
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-location-dot
-
-      - name: Quantum Computing
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-tag
-
-      - name: Quantum Information
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-envelope
+      - company: Chenbro Micom × Syntec Technology (Chenbro-Syntec Automation Competition)
+        position: Industry-Academia Program Intern
+        location: Taiwan
+        start_date: 2022-07
+        end_date: 2022-08
+        highlights:
+          - "Gathered requirements from Chenbro Micom staff and led a team of 5 to deliver a part-level traceability prototype cell for the server-chassis manufacturer, presenting the working cell to industry judges and winning 2nd place"
+          - "Programmed PLC ladder logic and structured text on a Syntec controller to sequence a 6-DOF robot arm, vision-based part identification, and laser QR-code marking as one automated traceability cell; calibrated the camera with a checkerboard"
+          - "Built a zero-cost Python service that polls PLC alarm data over Modbus and pushes real-time alerts to engineers' phones through LINE, so cell alarms could be diagnosed faster on site"
 
     Projects:
-      - name: Quantum Computing
-        summary: Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.
+      - name: 5-inch FPV Quadcopter Build & Embedded Sensing (Self-Directed)
+        start_date: 2026-07
+        end_date: present
         highlights:
-          - Quantum Teleportation
-          - Quantum Cryptography
-        start_date: 2018-01-01
-        end_date: 2018-01-01
+          - "Building a 6S LiPo 5-inch FPV quadcopter from components (F405 flight controller, 60A 4-in-1 ESC, 2207 1850KV motors, ELRS receiver, analog VTX), soldering ESC power and motor leads, wiring UART peripherals, and configuring Betaflight"
+          - "Wrote bare-metal STM32F411 firmware in C (HAL) that reads an MPU-6050 IMU and a QMC5883P magnetometer over I2C and streams UART telemetry, to learn the sensor layer beneath a flight controller"
 
-    References:
-      - name: Professor John Doe
-        icon: fa-solid fa-laptop
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
+      - name: Vision-Based Drone Interceptor (M.Eng Capstone)
+        start_date: 2026-01
+        end_date: 2026-06
+        highlights:
+          - "Designed a stereo-depth perception front-end in a gravity-aligned frame, decoupling attitude error from range estimation for a maneuvering aerial target"
+          - "Integrated YOLO detection, an LTV Kalman filter with rollback-update-rollforward for delayed measurement fusion, and Proportional Navigation guidance law into a single C++/ROS 2 pipeline"
+          - "Achieved 99.1% detection mAP@50 and 0.99 m terminal miss distance in Flightmare/Gazebo simulation"
 
-      - name: Professor Jane Smith
-        icon: fa-solid fa-thumbtack
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
+      - name: Computational Optimization
+        start_date: 2026-01
+        end_date: 2026-04
+        highlights:
+          - "Implemented particle swarm optimization to solve Keane's bump function up to n=50, the Brachistochrone problem, and a damped-oscillator parameter identification problem"
+          - "Implemented steepest descent, BFGS quasi-Newton, and Barzilai-Borwein methods with a backtracking Armijo line search, benchmarking convergence across 10-trial runs on convex quadratic and Rosenbrock problems"
+          - "Built a memetic PSO-SLSQP hybrid with event-driven local refinement, and compared mini-batch SGD, SGD with momentum, and nonlinear conjugate gradient on an airfoil surrogate-model regression task"
+
+      - name: Efficient YOLO11 Object Detection for UAV Surveillance
+        start_date: 2025-09
+        end_date: 2025-12
+        highlights:
+          - "Improved YOLO11n mAP@50-95 by 13% on the VisDrone aerial dataset by adding a high-resolution P2 detection head, pruning the coarse P5 head, and redesigning loss functions for small, imbalanced targets"
+          - "Integrated Inner-IoU regression loss and IOF-base10 logarithmic class reweighting to stabilize small object localization under a long-tail class distribution"
+          - "Applied INT8 quantization with OpenVINO and TensorRT, reducing CPU inference latency by 51% with mAP@50-95 dropping from 0.176 to 0.169"
+
+      - name: Gait Generation for an Underactuated Biped Robot
+        start_date: 2025-09
+        end_date: 2025-12
+        highlights:
+          - "Derived rigid-body dynamics and contact-impact maps from scratch for 2-link and 5-link planar bipeds, simulating event-driven contact-mode switching in MATLAB"
+          - "Formulated gait synthesis as constrained trajectory optimization under dynamics, clearance, and orbital-stability constraints, solved with SQP (fmincon)"
+          - "Replaced dense-grid clearance constraints with linear bounds on Bezier control points after diagnosing solver non-convergence at a kinematic singularity"
+          - "Stabilized the generated gait on an underactuated plant (2 DOF, single actuator) via input-output feedback linearization over 25 consecutive steps"
+
+      - name: Production Scheduling & Operations Optimization
+        start_date: 2025-05
+        end_date: 2025-08
+        highlights:
+          - "Formulated a 4-quarter production and workforce scheduling problem as a 13-variable linear program in MATLAB, with demand, capacity, inventory-balance, and rotating-shift constraints; minimized labor and holding cost to $495K with a 13-worker plan"
+          - "Modeled multi-stage routing as a network-flow LP with segment capacity and flow-conservation constraints, determining maximum throughput of 5 units/day across 3 parallel paths"
+          - "Applied simplex, duality, and sensitivity analysis to evaluate how capacity and resource changes shift the optimal operating plan"
+
+      - name: UAV Path Planning and Autonomy
+        start_date: 2025-01
+        end_date: 2025-04
+        highlights:
+          - "Designed RRT*-based UAV path planning with smoothed waypoint navigation and curvature-based velocity profiling for a course-wide planning challenge"
+          - "Implemented and tuned position and attitude control loops for quadrotor trajectory tracking in simulation"
+          - "Developed a visual odometry pipeline on the KITTI dataset for ego-motion estimation"
+
+      - name: Mobile Robot Mapping & Localization (TurtleBot)
+        start_date: 2025-01
+        end_date: 2025-04
+        highlights:
+          - "Implemented occupancy grid mapping, particle filter localization, and motion planning modules in ROS for a TurtleBot mobile robot; tested them in Gazebo, then ran 2D SLAM on the physical robot"
+
+      - name: Semantic Segmentation for Autonomous Cars in Urban Environments
+        start_date: 2025-01
+        end_date: 2025-04
+        highlights:
+          - "Built and trained a modified Mobile-Seed segmentation model in PyTorch/OpenMMLab with integrated GCA + DAFF modules and benchmarked compute vs. accuracy trade-offs"
+
+      - name: State Estimation
+        start_date: 2024-09
+        end_date: 2024-12
+        highlights:
+          - "Performed 3D nonlinear state estimation on SE(3) via batch Gauss-Newton optimization using stereo camera and IMU data on a UAV"
+          - "Implemented an Extended Kalman Filter (EKF) for 2D robot localization fusing wheel odometry with landmark measurements"
+
+      - name: Quadruped Robot Design
+        start_date: 2022-02
+        end_date: 2022-06
+        highlights:
+          - "Led a team of 3 to design and build a walking 2-DOF quadruped robot that also raises its legs and squats, on a USD $100 budget"
+          - "Modeled its components and simulated the leg mechanisms in SolidWorks before fabrication and assembly"
+
+    Skills:
+      - name: Programming
+        icon: fa-solid fa-code
+        keywords: "C++, Python, C, MATLAB, Git, Linux"
+      - name: Robotics
+        icon: fa-solid fa-robot
+        keywords: "State Estimation, Sensor Fusion, Control, Path Planning, Perception"
+      - name: Tools
+        icon: fa-solid fa-screwdriver-wrench
+        keywords: "ROS (ROS1/ROS2), PyTorch, OpenCV, YOLO, Gazebo"
+      - name: Automation & Embedded
+        icon: fa-solid fa-microchip
+        keywords: "STM32 (HAL), I2C / UART / SPI, PLC ladder logic, Modbus, robotic arm integration"
+      - name: Design & Prototyping
+        icon: fa-solid fa-cube
+        keywords: "SolidWorks, prototype development, 3D printing, soldering"
+      - name: Lab
+        icon: fa-solid fa-flask
+        keywords: "Experimental design, data analysis, electrochemical testing, ultrasonic spraying"
+
+    Languages:
+      - name: Mandarin
+        summary: "Native"
+      - name: English
+        summary: "Fluent (IELTS 7.5, TOEIC 970)"
